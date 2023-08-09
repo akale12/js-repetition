@@ -6,15 +6,14 @@ console.log('Ширина кузова автомобиля:" ' + vehicleBodyWid
 
 const priceEliteHome = 75000,
       dataWorkingHouse = 2024;
-
-console.log("Цена моей будущей квартиры:",  + priceEliteHome + 'дата эскплуатации' + dataWorkingHouse);      
       
+console.log(" Цена будущей моей квартиры, составит: " + priceEliteHome + " , дата эксплуатации " + dataWorkingHouse);      
 
 
 // ['vrurur', 'ecrvrev', 'vvuguegv'].map(a => )
 
-// Request
-// data 
+// Request - Запрос
+// data ответ от сервера(или сервер что-то должен вернуть)
 // response
 
 // snake_case(нижнее подчеркивание) - это один из вариантов, название папок и файлов, но не переменных в js

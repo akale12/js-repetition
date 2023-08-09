@@ -1,13 +1,29 @@
 "use strict";
 
-const hamburger = true;
-const fries = true;
+let num = 50;
 
-if (hamburger && fries) {
-        console.log('Я сыт!');
+
+// Пока что - наше условие выполняется, мы будем делать какие-либо действия
+// while (num <= 55) {
+//      console.log(num);
+//      num++;   
+// }
+
+
+// Сделайте что-то плс
+// do {
+//      console.log(num);
+//      num++;   
+// }
+
+// while (num < 55);
+
+//запомнить функционал: for (let i = 1;)
+for (let i = 1; i < 10; i++) {
+      if (i === 6) {
+            // break;
+            continue; //оператор континью, пропускат тот шаг, который нам не нужен, но при этом полностью не прерывает цикл.
+      }
+
+      console.log(i);  
 }
-
-
-
-
- 

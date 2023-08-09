@@ -33,8 +33,6 @@ alert(5);
 
 [].push('a');
 
-
-
 const persone = {
     name: 'Denis',
     age: 28,

@@ -7,7 +7,6 @@ console.log('string' * 9); //не математическая операция 
 
 const persone = 'Alex';
 
-
 const bool = true;
 
 console.log(something); //null - это когда, в коде, чего-то просто нет

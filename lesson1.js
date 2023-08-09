@@ -1,45 +1,26 @@
 "use strict";
 
-const myFutureCars = +prompt("Сколько у меня будет машин?", '');
+const superCars = +prompt ("Сколько у меня будет машин?", '');
 
 const categoryCars = {
-    count: myFutureCars,
+    count: superCars,
     models: {},
-    actors: {},
-    genres: [],
-    privat: true
+    price: {},
+    year: []
 };
 
-const firstQuestion = prompt("Какая у меня была первая машина?", ''),
-      secondQuestion = prompt("На сколько бы я её оценил?", ''),
-      thirdQuestion = prompt("Какая у меня была вторая машина?", ''),
-      fourdQuestion = prompt("На сколько бы я её оценил?", '');
-
-categoryCars.models[firstQuestion] = secondQuestion;
-categoryCars.models[thirdQuestion] = firstQuestion;
+const aQestion = prompt("Какая ваша первая машина?", ''),
+      bQestion = +prompt("На сколько я, её оценил?"),  
+      cQestion = prompt("Какая ваша вторая машина?", ''),
+      dQestion = +prompt("На сколько я, её оценил?");
+      
+categoryCars.models[aQestion] = bQestion;
+categoryCars.models[cQestion] = dQestion;
 
 console.log(categoryCars);
 
-let userName = 'Sam';
-
-userName = 'Denis';
-
-console.log(userName);
-
-const storeName = "AsylHolding";
-
-const storeDescription = {
-    budget: 10000000,
-    employees: ['Leo', 'Cristano', 'John'],
-    products: {
-        'cars': 250000,
-        'house': 350000
-    },
-
-    open: true
-}
-
-
-const loading = 100;
-
-
+const personAge = 26,
+      personYear = 1997;
+      
+console.log(' Мне скоро будет ' + personAge + ',Я родился в', + personYear);      
+      
