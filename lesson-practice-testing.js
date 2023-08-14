@@ -69,3 +69,125 @@ console.log( NaN || null && !3 && undefined || 5);
 
 
 console.log( 5 === 5 && 3 > 1 || 5);
+
+
+// *
+// **
+// ***
+// ****
+// *****
+// ******
+// *******
+
+let $result = '';
+
+const $length = 8;
+
+for (let i = 1; i < $length; i++) {
+
+    for (let j = 0; j < i; j++) {
+        $result += '*'
+    }
+
+    $result += '\n'
+}
+
+console.log($result);
+
+
+//Правильно
+function firstTast() {
+    for (let i = 5; i < 11; i++) {
+            console.log(i);
+    }
+}
+
+//Правильно, но забыл некоторые строки кода
+function secondTask() {
+    for (let i = 20; i > 10; i--) {
+            if (i === 13) {
+                console.log(i);
+                break;
+            }
+    }
+}
+
+//Правильно, также забыл некоторые строки кода
+function thirdTask() {
+    for (let i = 2; i < 10; i++) {
+        if (i % 2 === 0);
+            console.log(i);
+    }
+}
+
+//Правильно, но забыл некоторые строки кода
+function fourdTask () {
+    let i = 2;
+
+    while (i <= 16) {
+        if (i % 2 === 0) {
+            i++;
+            continue;
+        } else {
+            console.log(i);
+        }
+            i++;
+    };
+};
+
+
+//Правильно, но нижняя часть кода была просмотрена
+function fifthTask() {
+    const arrayS = [];
+
+    for (let i = 5; i < 11; i++) {
+        arrayS[i - 5] = i;
+    }
+
+    console.log(arrayS);
+    return arrayS;
+}
+
+const elka = 5;
+let resultat = "";
+
+for (let i = 0; i <= elka; i ++) {
+    for(let j = 0; j <= elka - i; j++) {
+        resultat += " ";
+    }
+
+    for(let j = 0; j < 2 * i + 1; j++) {
+        resultat += "*";
+    }
+
+    resultat += "\n";
+
+}
+
+console.log(resultat);
+
+// const number0Films = +prompt("Сколько фильмов вы уже посмотрели?", '');
+
+// const personalMovieDB = {
+//     count: number0Films,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false 
+// };
+
+// const firstQuestion = prompt("Один из последних просмотренных фильмов?", ''),
+//       secondQuestion = prompt("На сколько оцените его?", ''),
+//       thirdQuestion = prompt("Один из последних просмотренных фильмов?", ''),
+//       fourdQuestion = prompt ("На сколько оцените его?", '');
+      
+// personalMovieDB.movies[firstQuestion] = secondQuestion;
+// personalMovieDB.movies[thirdQuestion] = fourdQuestion;
+
+// console.log(personalMovieDB);
+
+// const myFutureCars = +prompt("Сколько у меня будет машин?", '');
+
+
+
+
