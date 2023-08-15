@@ -40,3 +40,11 @@ const persone = {
 };
 
 console.log(persone['name']);
+
+
+const hamburger = 4;
+const cola = 3;
+fries = 2;
+
+console.log(hamburger === 4 && cola === 3 && fries);
+
