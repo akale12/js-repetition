@@ -151,7 +151,24 @@ function fifthTask() {
 const elka = 5;
 let resultat = "";
 
-for (let i = 0; i <= elka; i ++) {
+
+//Exercise 1
+// for (let i = 0; i <= elka; i++) {
+//     for(let j = 0; j <= elka - i; j++) {
+//         resultat += " ";
+//     }
+
+//     for(let j = 0; j < 2 * i + 1; j++) {
+//         resultat += "*";
+//     }
+
+//     resultat += "\n";
+// }
+
+// console.log(resultat);
+
+//Exercise 2
+for (let i = elka; i >= 0; i--) {
     for(let j = 0; j <= elka - i; j++) {
         resultat += " ";
     }
@@ -161,7 +178,6 @@ for (let i = 0; i <= elka; i ++) {
     }
 
     resultat += "\n";
-
 }
 
 console.log(resultat);
