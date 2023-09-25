@@ -48,3 +48,26 @@ fries = 2;
 
 console.log(hamburger === 4 && cola === 3 && fries);
 
+
+const number0Films = +prompt("Сколько у вас просмотренных фильмов?", '');
+
+const personalMovieDB = {
+
+    count: number0Films,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false 
+
+};
+
+const aQestion = prompt("Сколько у вас просмотренных фильмов?",''),
+      bQestion = +prompt("На сколько бы, вы её оценили?", ''),
+      cQestion = prompt("Сколько у вас просмотренных фильмов?", ''),
+      dQestion = +prompt("Насколько бы, вы её оценили?", '');
+      
+personalMovieDB.movies[aQestion];
+personalMovieDB.movies[dQestion];
+
+console.log(personalMovieDB);
+
