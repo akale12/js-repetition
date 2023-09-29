@@ -66,8 +66,20 @@ const aQestion = prompt("Сколько у вас просмотренных ф�
       cQestion = prompt("Сколько у вас просмотренных фильмов?", ''),
       dQestion = +prompt("Насколько бы, вы её оценили?", '');
       
-personalMovieDB.movies[aQestion];
-personalMovieDB.movies[dQestion];
+personalMovieDB.movies[aQestion] = bQestion;
+personalMovieDB.movies[cQestion] = dQestion;
+
+for (let i = 0; i < 2; i++) {
+
+    const aQestion = prompt("Сколько у вас просмотренных фильмов?",''),
+          bQestion = +prompt("На сколько бы, вы её оценили?", '');
+        
+          if( a != null && b != null && a != '' && b != '' && a.length) {
+            
+          }
+
+     personalMovieDB.movies[aQestion] = bQestion;
+};
 
 console.log(personalMovieDB);
 
