@@ -18,7 +18,7 @@ const storeDescription = {
         open: true
 };
 
-const mySuperCars = +prompt("Сколько у меня будет машин в будущем?", '');
+const mySuperCars = +prompt("Сколько у вас машин?", '');
 
 const categoryCars = {
     count: mySuperCars,
@@ -199,21 +199,24 @@ for (let i = 1; i < $length; i++) {
 console.log($$resultat);
 
 
-let $$result = "";
-const $$dlina = 5;
+// let $$result = "";
+// const $$dlina = 5;
 
-for (let i = $$dlina; i => 0; i--) {
-    for (let j = 0; j <= $$dlina - i; j++) {
-        $$result += " ";
-    }
+// for (let i = $$dlina; i => 0; i--) {
+//     for (let j = 0; j <= $$dlina - i; j++) {
+//         $$result += " ";
+//     }
 
-    for (let j = 0; j < 2 * i + 1; j++) {
-        $$result += "*";
-    }
+//     for (let j = 0; j < 2 * i + 1; j++) {
+//         $$result += "*";
+//     }
 
-    $$result +="\n";
-}
+//     $$result +="\n";
+// }
 
-console.log($$result);
+// console.log($$result);
+
+
+
 
 

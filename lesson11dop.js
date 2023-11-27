@@ -77,3 +77,18 @@ console.log(!0);
 // cola = 0
 // fries = 0
 // if (hamburger || fries || cola)
+
+
+const mySuperCars = +prompt("Сколько у вас будет машин?", '');
+
+const categoryCars = {
+    count: mySuperCars,
+    models: {},
+    years: {},
+    price: [],
+    privat: true
+};
+
+const a = prompt("Какая ваша первая машина?", ''),
+      b = +prompt("На сколько бы, вы её оценили?" ,''),
+      c = prompt
